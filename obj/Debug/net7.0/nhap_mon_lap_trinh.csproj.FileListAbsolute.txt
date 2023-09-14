@@ -1,0 +1,15 @@
+C:\Users\HOANG\nhap_mon_lap_trinh\bin\Debug\net7.0\nhap_mon_lap_trinh.exe
+C:\Users\HOANG\nhap_mon_lap_trinh\bin\Debug\net7.0\nhap_mon_lap_trinh.deps.json
+C:\Users\HOANG\nhap_mon_lap_trinh\bin\Debug\net7.0\nhap_mon_lap_trinh.runtimeconfig.json
+C:\Users\HOANG\nhap_mon_lap_trinh\bin\Debug\net7.0\nhap_mon_lap_trinh.dll
+C:\Users\HOANG\nhap_mon_lap_trinh\bin\Debug\net7.0\nhap_mon_lap_trinh.pdb
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\nhap_mon_lap_trinh.csproj.AssemblyReference.cache
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\nhap_mon_lap_trinh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\nhap_mon_lap_trinh.AssemblyInfoInputs.cache
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\nhap_mon_lap_trinh.AssemblyInfo.cs
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\nhap_mon_lap_trinh.csproj.CoreCompileInputs.cache
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\nhap_mon_lap_trinh.dll
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\refint\nhap_mon_lap_trinh.dll
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\nhap_mon_lap_trinh.pdb
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\nhap_mon_lap_trinh.genruntimeconfig.cache
+C:\Users\HOANG\nhap_mon_lap_trinh\obj\Debug\net7.0\ref\nhap_mon_lap_trinh.dll

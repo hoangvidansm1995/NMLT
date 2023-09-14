@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "nhap_mon_lap_trinh/1.0.0": {
+        "runtime": {
+          "nhap_mon_lap_trinh.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "nhap_mon_lap_trinh/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
