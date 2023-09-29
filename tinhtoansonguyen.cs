@@ -35,4 +35,4 @@ namespace NMLT;
         {
             return Math.Pow(x,1/n);
         }
-}
+    }

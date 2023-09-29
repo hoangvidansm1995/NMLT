@@ -4,15 +4,20 @@ using System.Reflection.Metadata;
 namespace NMLT;
 class Xu_ly_mang_so_nguyen
 {
-    public static int[] Create_random_array(int so_phan_tu, int gioi_han)
+    public static int[] Create_Random_Array(int so_phan_tu, int low_lim, int up_lim)
     {
         int[] a = new int[so_phan_tu];
         Random random = new Random();
         for (int i =0; i < so_phan_tu; i++)
         {
-            a[i] = random.Next(gioi_han);
+            a[i] = random.Next(low_lim, up_lim);
+        }
+        foreach(int k in a)
+        {
+            Console.WriteLine(k);
         }
         return a;
+
     }
     public static int[] Create_Custom_Array()
     {
@@ -108,6 +113,56 @@ class Xu_ly_mang_so_nguyen
         }
         return -1;
     }
-
-
+    public static int First_Even_Num(int[]a)
+    {
+        for (int i = 0; i< a.Length; i++)
+        {
+            if (a[i] % 2 == 0) return a[i];
+        }
+        return -1;
+    }
+    public static int First_Prime_Num(int[]a)
+    {
+        for (int i = 0; i< a.Length; i++)
+        {
+            if (Xu_ly_so_nguyen.Is_prime(a[i])) return a[i];
+        }
+        return -1;
+    }
+    public static int First_Perfect_Num(int[]a)
+    {
+        for (int i = 0; i< a.Length; i++)
+        {
+            if (Xu_ly_so_nguyen.Is_Perfect_Number(a[i]) == true) return a[i];
+        }
+        return -1;
+    }
+    public static void least_Num(int [] a)
+    {
+        int [] b = new int[10];
+        for( int  i = 0; i < 10; i ++)
+        {
+            int count = 0;
+            for (int j = 0; j< a.Length; j ++)
+            {
+                int k =a[j];
+                if(k< 0) k=-k;
+                for (int l = 0; k>0; l++)
+                {
+                    if (k % 10 == i) count +=1;
+                    k /=10;
+                }
+            }
+            b[i] = count;
+        }
+        int max = 0;
+        int position = 0;
+        for(int i =0 ; i< a.Length; i ++)
+        {
+            if (b[i]> max) 
+            {max = b[i];
+            position = i;}
+        }
+        Console.WriteLine("So {0} xuat hien nhieu nhat: {1} lan", position, max);
+    }
 }
